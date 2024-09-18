@@ -1,19 +1,31 @@
-body{
+section{
+	border: 2px solid;
+	border-radius: 10px;
+	width: 90%;
+	margin: 22px auto;
+	padding: 10px;
+	height: 88vh;
+}
+
+main{
 
 	background-image: url(./images/clock-background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
-	height: 100vh;
+	margin: 0 auto;
+
+	width: 95%;
+	border-radius: 10px;
+
 }
 #clock-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/* border: 2px solid; */
-	height: 92vh;
+	height: 80vh;
 }
 #clock{
 	font-family: monospace;
@@ -21,7 +33,7 @@ body{
 	font-weight: bold;
 	text-align: center;
 	color: white;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(10px);
 	width: 100%;
 	background-color: hsla(0, 0%, 100%, 0.1);
 }
